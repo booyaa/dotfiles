@@ -1,3 +1,6 @@
 [submodule "vim/pack/plugins/start/sensible"]
 	path = vim/pack/plugins/start/sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "vim/pack/plugins/start/sleuth"]
+	path = vim/pack/plugins/start/sleuth
+	url = https://tpope.io/vim/sleuth.git
