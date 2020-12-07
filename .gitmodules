@@ -4,3 +4,6 @@
 [submodule "vim/pack/plugins/start/sleuth"]
 	path = vim/pack/plugins/start/sleuth
 	url = https://tpope.io/vim/sleuth.git
+[submodule "vim/pack/plugins/start/tcomment"]
+	path = vim/pack/plugins/start/tcomment
+	url = https://github.com/tomtom/tcomment_vim.git
