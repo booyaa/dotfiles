@@ -8,7 +8,8 @@ setup/create-symlinks.sh
 
 ## vim
 
-- Props to [George Ornbo](https://shapeshed.com/vim-packages/#adding-a-package) for these handy commands.
+Props to [George Ornbo](https://shapeshed.com/vim-packages/#adding-a-package) for these handy commands.
+
 ### adding packages
 
 ```sh
@@ -31,4 +32,11 @@ git submodule deinit vim/pack/plugins/start/suchwow
 git rm vim/pack/plugins/start/suchwow
 rm -Rf .git/modules/vim/pack/plugins/start/suchwow
 git commit
+```
+
+### miscellany
+
+```sh
+#TODO: needed for sleuth
+vim -u NONE -c "helptags sleuth/doc" -c q
 ```
