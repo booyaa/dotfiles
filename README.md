@@ -3,6 +3,9 @@
 ## setup
 
 ```sh
+git clone https://github.com/booyaa/dotfiles.git
+cd dotfiles
+git submodule update --init --recursive # to pull in vim plugins
 setup/create-symlinks.sh
 ```
 
